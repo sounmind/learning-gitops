@@ -5,7 +5,7 @@ service:
     exposed: true
 image:
   repository: ghcr.io/sounmind/coffee/cart/api
-  tag: latest
+  tag: rc-7a2e9aa
   pullPolicy: IfNotPresent
 env:
   - name: TZ
